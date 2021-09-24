@@ -1,0 +1,21 @@
+1. What is the time complexity T(n) for the following code snippet?
+
+a = 1;
+
+b = 1;
+
+while(b < n)
+
+{
+
+a += 1;
+
+b += a;
+
+cout<<"Hi";
+
+}
+
+Answer - Here the loop iterates n times, b increments by 1 in each iteration until it is less than or equal to n.
+Hence its time complexity is O(n).
+
